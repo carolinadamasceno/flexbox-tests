@@ -1,0 +1,47 @@
+html, body {
+  background-color: #E4D6C5;
+  margin: 0px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flex-container > div {
+  flex: 1; /* Dá responsividade estendendo as divs*/
+  margin-left: 2px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #E4D6C5;
+  box-shadow: 2px 2px gray;
+  
+}
+
+.flex-container > .home {
+  flex: 1;
+}
+
+.home {
+  background-color: #aa8855; 
+}
+
+.products {
+  background-color: #B84835;
+}
+
+.services {
+  background-color: chocolate;
+}
+
+.contact {
+  background-color: #9A0F28;
+}
+
+.flex-container > div:hover {
+  opacity: 0.6;
+}
